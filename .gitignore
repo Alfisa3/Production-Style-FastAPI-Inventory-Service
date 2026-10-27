@@ -1,0 +1,24 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Local database
+*.db
+*.db-shm
+*.db-wal
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
